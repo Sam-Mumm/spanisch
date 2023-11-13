@@ -1,0 +1,88 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{Zeit}
+\section*{Allgemein}
+\begin{longtable}{p{.20\textwidth} | p{.50\textwidth}} 
+\textbf{Zeit}     & \textbf{el tiempo}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Sekunde & el segundo\\
+Minute & el minuto\\
+Stunde & la hora\\
+Tag & el dia\\
+Woche & la semana\\
+Wochenende & el fin de semana\\
+Monat & el mes\\
+Jahr & el a\~{n}o\\
+
+\end{longtable}
+
+\section*{Monatsnamen}
+\begin{longtable}{p{.20\textwidth} | p{.50\textwidth}} 
+\textbf{Monatsnamen}     & \textbf{los nombres de los meses}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Januar & el enero\\
+Februar & el febrero\\
+März & el marzo\\
+April & el abril\\
+Mai & el mayo\\
+Juni & el junio\\
+Juli & el julio\\
+August & el agosto\\
+September & el septiembre\\
+Oktober & el octubre\\
+November & el noviembre \\
+Dezember & el diciembre \\
+\end{longtable}
+
+\section*{Wochentage}
+\begin{longtable}{p{.20\textwidth} | p{.50\textwidth}} 
+\textbf{Wochentage}     & \textbf{los día de la semana}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Montag & el lunes \\
+Dienstag & el martes\\
+Mittwoch & el miercoles \\
+Donnerstag & el jueves \\
+Freitag & el viernes\\
+Samstag & el sabado \\
+Sonntag & el domingo \\
+\end{longtable}
+
+\newpage
+
+\section*{Datumsangaben}
+\subsection*{Muster}
+\textit{<Tag>} \textbf{de} \textit{<Monat>} \textbf{de} \textit{<Jahr> }
+
+\subsection*{Beispiele}
+\begin{itemize}
+  \item \textbf{1. Januar: } primero de enero
+  \item \textbf{15. April 1978: } quince de abril de mil novecientos setenta y ocho
+  \item \textbf{3. November 2023: } tres de noviembre de dos mil veintitres
+\end{itemize}
+
+\section*{Uhrzeit}
+
+tbd
+
+\end{document}
