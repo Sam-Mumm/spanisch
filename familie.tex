@@ -1,0 +1,55 @@
+\documentclass[10pt,spanish]{article}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\begin{document}
+
+\begin{longtable}{p{.20\textwidth} | p{.50\textwidth}} 
+\textbf{Familie}     & \textbf{la familia}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Mutter &  la madre \\
+Vater & el padre \\
+Eltern & los padres \\
+Großmutter & la abuela \\
+Großvater & el abuelo \\
+Großeltern & los abuelos \\
+Sohn & el hijo \\
+Tochter & la hija \\
+Kinder & los hijos \\
+Bruder & el hermano \\
+Schwester & la hermana \\
+Geschwister & los hermanos \\
+Onkel & el tio \\
+Tante & la tia \\
+Freund, -in & el novio \\
+            & la novia \\
+Ehefrau & la mujer \\
+        & el esposa \\
+Ehemann & el marido \\
+        & el esposo \\
+Cousin, -e & el primo \\
+           & la prima \\
+Enkel, -in & el nieto \\
+           & la nieta \\
+Schwiegermutter & la suegra \\
+Schwiegervater & el suegro \\
+Schwiegereltern & los suegros \\
+SChwiegertochter & la nuegra \\
+Schwiegersohn & el yerno \\
+Nichte & la sobrina \\
+Neffe & el sobrino \\
+
+\end{longtable}
+
+\end{document}
