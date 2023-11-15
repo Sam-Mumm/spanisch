@@ -4,6 +4,9 @@
 \usepackage{multirow}
 \usepackage{tabularx}
 \usepackage{titlesec}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0em} 
 
 \SelectInputMappings{%
   aacute={á},
@@ -67,7 +70,7 @@ Freitag & el viernes\\
 Samstag & el sabado \\
 Sonntag & el domingo \\
 \end{longtable}
-
+Regelmäßig stattfindende Ereignisse werden üblicherweise durch den Plural des Wochentages gebildet, besipielsweise: "jeden Montag - los lunes, jeden Dienstag - los martes usw."
 \newpage
 
 \section*{Datumsangaben}
@@ -83,6 +86,26 @@ Sonntag & el domingo \\
 
 \section*{Uhrzeit}
 
-tbd
+\begin{center}
+  \includegraphics[scale=0.5]{uhrzeit.pdf}
+\end{center}
 
+\subsection*{Tagesabschnitte}
+\begin{longtable}{p{.20\textwidth} p{.20\textwidth}} 
+  frühmorgens & ... de la madrugada \\
+  morgens & ... de la ma\~{n}ana \\
+  mittags & ... del mediodía \\
+  nachmittags & ... de la tarde \\
+  abends/nachts & ... de la noche
+\end{longtable}
+
+\subsection*{Beispiele}
+\begin{itemize}
+  \item \textbf{8:05 morgens:} ocho y cinco de la ma\~{n}ana 
+  \item \textbf{12:00 mittags:} doce en puncto (del mediodía)
+  \item \textbf{2:15 nachmittags:} dos y cuatro de la tarde
+  \item \textbf{3:30:} tres y media
+  \item \textbf{4:37:} cinco menos veintitres
+  \item \textbf{5:45:} seis menos cuatro
+\end{itemize}
 \end{document}

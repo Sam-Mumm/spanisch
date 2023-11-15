@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="197.99663mm"
+   height="125.60481mm"
+   viewBox="0 0 197.99663 125.60481"
    version="1.1"
    id="svg1236"
    sodipodi:docname="uhrzeit.svg"
@@ -18,21 +18,39 @@
   <defs
      id="defs1230">
     <rect
+       x="2.4385819"
+       y="21.307325"
+       width="200.71748"
+       height="137.16879"
+       id="rect3641" />
+    <rect
+       x="222.68779"
+       y="186.55151"
+       width="307.87817"
+       height="192.23721"
+       id="rect3635" />
+    <rect
+       x="264.49823"
+       y="202.7482"
+       width="340.23694"
+       height="250.547"
+       id="rect3629" />
+    <rect
        x="25.625288"
        y="171.46027"
-       width="81.584402"
-       height="35.238374"
+       width="81.584404"
+       height="35.238373"
        id="rect3565" />
     <rect
        x="83.406853"
-       y="30.122685"
-       width="80.141719"
-       height="49.278956"
+       y="30.122684"
+       width="80.141716"
+       height="49.278957"
        id="rect3485" />
     <rect
-       x="28.703158"
+       x="28.703157"
        y="42.805656"
-       width="22.881291"
+       width="22.88129"
        height="21.558374"
        id="rect2673" />
     <rect
@@ -41,24 +59,6 @@
        width="80.141716"
        height="49.278957"
        id="rect3485-7" />
-    <rect
-       x="83.406853"
-       y="30.122684"
-       width="80.141716"
-       height="49.278957"
-       id="rect3498" />
-    <rect
-       x="83.406853"
-       y="30.122684"
-       width="80.141716"
-       height="49.278957"
-       id="rect3485-0" />
-    <rect
-       x="83.406853"
-       y="30.122684"
-       width="80.141716"
-       height="49.278957"
-       id="rect3536" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -68,8 +68,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.71710957"
-     inkscape:cx="590.02239"
-     inkscape:cy="385.57732"
+     inkscape:cx="306.03767"
+     inkscape:cy="287.75659"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -82,7 +82,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1">
     <sodipodi:guide
-       position="10.732931,182.63166"
+       position="4.5741377,37.118208"
        orientation="0,-1"
        id="guide3525" />
   </sodipodi:namedview>
@@ -101,7 +101,8 @@
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-6.1587932,-25.881736)">
     <circle
        style="opacity:0.98;fill:none;fill-opacity:1;stroke:#625757;stroke-width:0.792344;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path835"
@@ -507,7 +508,7 @@
     <text
        xml:space="preserve"
        id="text2671"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2673);" />
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2673);fill:#000000;fill-opacity:1;stroke:none;" />
     <path
        style="opacity:0.98;fill:#000080;stroke:#625757;stroke-width:0;stroke-linecap:square;stroke-dashoffset:37.6063"
        d="m 99.533413,131.62767 c -7.967204,-0.6333 -15.489984,-3.42671 -21.81677,-8.10116 -3.194117,-2.35992 -6.257804,-5.40069 -8.638107,-8.57348 -2.703193,-3.6032 -4.936325,-7.89827 -6.327556,-12.17007 -2.420218,-7.431333 -2.725003,-15.36442 -0.881251,-22.93763 2.666025,-10.950701 9.588375,-20.317684 19.324724,-26.149263 1.290141,-0.77273 3.993622,-2.131243 5.371243,-2.699079 3.663217,-1.509927 7.662953,-2.531749 11.566309,-2.954873 0.921402,-0.09988 3.535155,-0.26771 4.206355,-0.27009 l 0.19604,-6.23e-4 0.0217,41.972439 0.0217,41.972439 -1.10017,-0.0107 c -0.6051,-0.006 -1.480001,-0.041 -1.944234,-0.0778 z"
@@ -515,21 +516,21 @@
     <text
        xml:space="preserve"
        id="text3483"
-       style="font-style:normal;font-weight:normal;font-size:17.0051px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3485);fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:19.1914px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3485);fill:#000000;fill-opacity:1;stroke:none;"
        transform="matrix(0.58822691,0,0,0.58822691,67.632725,63.234022)"><tspan
          x="83.40625"
-         y="45.168575"><tspan
-           style="font-size:17.0051px">y</tspan></tspan></text>
+         y="47.102938"><tspan
+           style="shape-inside:url(#rect3485)">y</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text3483-4"
-       style="font-style:normal;font-weight:normal;font-size:17.0051px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3485-7);fill:#000000;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:16.7925px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3485-7);fill:#000000;fill-opacity:1;stroke:none;"
        transform="matrix(0.58822691,0,0,0.58822691,15.568902,62.767453)"
        inkscape:transform-center-x="-8.4438646"
        inkscape:transform-center-y="61.16884"><tspan
          x="83.40625"
-         y="45.168575"><tspan
-           style="font-size:17.0051px;fill:#ffffff">menos</tspan></tspan></text>
+         y="44.980473"><tspan
+           style="font-size:16.7925px;fill:#ffffff">menos</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text3563"
@@ -576,5 +577,17 @@
          y="96.193665"
          style="font-size:10.0029px;stroke-width:0.234441"
          id="tspan3621">cuatro</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text3627"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3629);fill:#000000;fill-opacity:1;stroke:none;" />
+    <text
+       xml:space="preserve"
+       id="text3633"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3635);fill:#000000;fill-opacity:1;stroke:none;" />
+    <text
+       xml:space="preserve"
+       id="text3639"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3641);fill:#000000;fill-opacity:1;stroke:none;" />
   </g>
 </svg>
