@@ -1,0 +1,72 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{color, colortbl}
+\usepackage[none]{hyphenat}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{Nahrungsmittel}
+
+\section*{Obst}
+\begin{longtable}{p{.20\textwidth} | p{.20\textwidth}} 
+\textbf{Obst}     & \textbf{la fruta}                                  \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Ananas & la pi\~{n}a \\
+Erdbeere & la fresa \\
+Apfel & la manzana \\
+Weintraube & la uva \\
+Aprikose & el albaricoque \\
+Banane & la banana \\
+Zitrone & el limón\\
+Orange & la naranja \\
+Birne & la pera \\
+\end{longtable}
+
+
+\section*{Gemüse}
+\begin{longtable}{p{.20\textwidth} | p{.20\textwidth}} 
+\textbf{Gemüse}     & \textbf{la vendura}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+Kartoffel & la papa\\
+Knoblauch & el ajo\\
+Zwiebel & la cebolla\\
+Tomate & el tomate\\
+Gurke & el pepino\\
+\end{longtable}
+
+
+\section*{Getränke}
+\begin{longtable}{p{.20\textwidth} | p{.20\textwidth}} 
+\textbf{Getränk}     & \textbf{la bebida}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+  Bier & la cerveza\\
+  Rotwein & el vino tinto\\
+  Weißwein & el vino blanco\\
+  Wasser & el agua \\
+  Saft & el zumo (de ...)\\
+  & el jugo (de ...) \\
+  Tee & el té \\
+  Kaffee & el cafe \\
+  Milch & la leche \\
+\end{longtable}
+
+
+\end{document}

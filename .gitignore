@@ -4,3 +4,4 @@
 *.synctex.gz
 *.tex~
 *.fdb_latexmk
+*.dvi
