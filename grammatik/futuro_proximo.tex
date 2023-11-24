@@ -1,0 +1,64 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[none]{hyphenat}
+\usepackage{mathtools}
+\usepackage{array}
+\setlength{\parindent}{0em} 
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\usepackage{abraces,graphicx}
+
+\newcommand{\mrot}[1]{\rotatebox{90}{$#1\mathstrut$}}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{Futuro Próximo}
+Die Zeitform \textbf{Futuro Próximo} drückt Handlungen die in der nahen Zukunft stattfinden werden aus.\\[2ex]
+\textbf{Bildung}\\
+Die nahe Zukunft wird gebildet durch:\\
+
+\begin{center}
+\textit{<Konjugation von ir> + a + <Verb im Infinitiv>}\\[2ex]
+\raisebox{.8\baselineskip}{\rotatebox{-90}{$\setlength{\arraycolsep}{.5\arraycolsep}
+  \begin{array}{@{}c@{}}
+   \aunderbrace[l1D1r]{\begin{array}{rrrrrr}
+       \mrot{comer} & \mrot{hablar} & \mrot{apender} & \mrot{ir} &  \mrot{beber} & \mrot{...}  
+     \end{array}} \\
+   \mrot{~~~a~~~} \hspace{5.3\normalbaselineskip} \\
+   \aoverbrace[L1U1R]{\begin{array}{rrrrrr}
+       \mrot{voy} & \mrot{vas} & \mrot{vas} & \mrot{vamos} &  \mrot{vais} & \mrot{van}  
+     \end{array}}
+  \end{array}$}}
+\end{center}
+
+Bei reflexiven Verben, werden die Reflexivpronomen (me, te, se, nos, os, se) entweder
+\begin{itemize}
+  \item vor das Verb ir gestellt oder
+  \item an den Infinitiv des Verbes angehangen
+\end{itemize}
+\bigskip
+\textbf{Beispiel}
+\begin{itemize}
+\item Me voy a duchar = Voy a durcharme
+\item Te voy a llamar mana\~{n}a = Voy a llamarte mana\~{n}a
+\end{itemize}
+
+\newpage
+
+
+
+\end{document}

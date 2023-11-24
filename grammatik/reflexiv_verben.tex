@@ -1,0 +1,56 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[none]{hyphenat}
+\usepackage{mathtools}
+\usepackage{array}
+\setlength{\parindent}{0em} 
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\usepackage{abraces,graphicx}
+
+\newcommand{\mrot}[1]{\rotatebox{90}{$#1\mathstrut$}}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{reflexiv Verben}
+Drücken Tätigkeiten eines Subjekts aus, die sich auf sich selbst bezieht. Die Bildung erfolgt aus einem Pronom und dem Verb selbst.
+
+\subsubsection*{Beispiel}
+\begin{longtable}{p{.05\textwidth} | p{.10\textwidth} | p{.10\textwidth} } 
+\textbf{~}     & \textbf{llamarse} & \textbf{sentirse} \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+me & llamo & siento \\
+te & llamas & sientes \\
+se & llama & siente\\
+nos & llamamos & sentimos\\
+os & llamais & sentís\\
+se & llaman & sienten\\
+\end{longtable}
+
+\subsubsection*{weitere Beispiele}
+\begin{itemize}
+  \item llamarse \textit{(heißen)}
+  \item ducharse \textit{(sich duschen)}
+  \item afeitarse \textit{(sich rasieren)}
+  \item levantarse \textit{(aufstehen)}
+  \item irse \textit{(weggehen)}
+  \item quedarse \textit{(bleiben)}
+  \item acostarse \textit{(zu Bett gehen)}
+\end{itemize}
+
+\end{document}

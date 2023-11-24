@@ -1,0 +1,76 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[none]{hyphenat}
+\usepackage{mathtools}
+\usepackage{array}
+\setlength{\parindent}{0em} 
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\usepackage{abraces,graphicx}
+
+\newcommand{\mrot}[1]{\rotatebox{90}{$#1\mathstrut$}}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{reguläre Verben}
+\begin{longtable}{p{.15\textwidth} | C{.10\textwidth}  | C{.10\textwidth}  | C{.10\textwidth}} 
+\textbf{~}     & hab\textbf{ar} & com\textbf{er} & viv\textbf{ir}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+yo & habl\textbf{o} & com\textbf{o} & viv\textbf{o} \\
+tú & habl\textbf{as} & com\textbf{es} &  viv\textbf{es} \\
+él/ellas/usted &  habl\textbf{a} & com\textbf{e} &  viv\textbf{e} \\
+nosotros, -as &  habl\textbf{amos} & com\textbf{emos} &  viv\textbf{imos} \\
+vosotros, -as &  habl\textbf{áis} & com\textbf{éis} &  viv\textbf{ís} \\
+ellos/ellas/ustedes &  habl\textbf{an} & com\textbf{en} &  viv\textbf{en} \\
+\end{longtable}
+
+\subsection*{Vokaländerung (Diphtongierung) }
+Für einige \underline{unregelmäßige} Verben gilt:\\[2ex]
+$
+\left.\parbox{0.45\textwidth}{%
+\begin{itemize}
+  \item e $\rightarrow$ ie
+  \item o $\rightarrow$ ue
+  \item e $\rightarrow$ i (\underline{nur} bei Verben der *ir-Konjugation)
+\end{itemize}
+}\right\} \vbox{\noindent Gilt für alle Formen des Singular und\\für die 3. Person Plural}
+$
+\subsubsection*{Beispiele}
+\begin{longtable}{p{.15\textwidth} | C{.10\textwidth}  | C{.10\textwidth}  | C{.10\textwidth}} 
+~ & \textbf{e $\rightarrow$ ie} & \textbf{o $\rightarrow$ ue} & \textbf{e $\rightarrow$ i}\\
+~ & querer & poder & pedir                                   \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+yo & quiero & puedo & pido \\
+tú & quieres & puedes &  pides \\
+él/ellas/usted &  quiere & puede &  pide \\
+nosotros, -as &  queremos & podemos &  pedimos \\
+vosotros, -as &  queréis & podéis &  pedís \\
+ellos/ellas/ustedes &  quieren & pueden &  piden \\
+\end{longtable}
+
+gilt auch für:
+\begin{itemize}
+  \item dormir
+  \item preferir
+  \item sentir
+  \item so\~{n}ar
+  \item decir
+\end{itemize}
+
+\end{document}
