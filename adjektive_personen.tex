@@ -1,0 +1,57 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{color, colortbl}
+\usepackage[none]{hyphenat}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{Los adjetivos}
+
+\begin{longtable}{p{.20\textwidth} | p{.20\textwidth}} 
+\textbf{Spanisch}     & \textbf{Deutsch}                                       \\ \hline
+\hline
+\endhead % all the lines above this will be repeated on every page
+hübsch & guapo, -a\\
+& bonito, -a\\
+& lindo, -a\\
+hässlich & feo\\
+klein & peque\~{n}o/-a\\
+klein \textit{(Körpergröße)} & bajo, -a\\
+groß & grande\\
+groß \textit{(Körpergröße)} & alto\\
+sympathisch & simpático, -a\\
+unsympathisch & antipático, -a\\
+geduldig & paciente \\
+ungeduldig & impaciente \\
+intelligent & inteligente \\
+dumm & tonto, -a\\
+lustig & divertido, -a\\
+langweilig & aburrido, -a\\
+interessant & interesante\\
+ernsthaft & serio, -a\\
+dick & gordo, -a\\
+dünn & delgado, -a\\
+ruhig & tranquillo, -a\\
+blond & rubio, -a\\
+jung & joven\\
+alt & viejo, -a\\
+blass & pálido\\
+schüchtern & timido, -a\\
+attraktiv & atractivo, -a
+\end{longtable}
+\end{document}
