@@ -1,0 +1,79 @@
+\documentclass[10pt,spanish]{report}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}
+\usepackage[longtable]{multirow}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0em} 
+
+\SelectInputMappings{%
+  aacute={á},
+  ntilde={ñ},
+  Euro={€}
+}
+\usepackage{babel}
+\usepackage [left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{longtable}
+
+\titlespacing*{\section} {0pt}{5.5ex}{0ex}
+
+\begin{document}
+
+\chapter*{unregelmäßige Verben}
+\section*{estar - \textit{sein}}
+\begin{longtable}{p{.175\textwidth} | p{.10\textwidth}p{.10\textwidth}} 
+~ & \textbf{Präsenz}\\
+\hline
+yo & estoy\\
+tú & estas\\
+el/ella/usted & esta\\
+nosotros, -as & estamos\\
+vosotros, -as & estáis\\
+ellos/ellas/ustedes & estan
+\end{longtable}
+
+
+\section*{ser - \textit{sein}}
+\begin{longtable}{p{.175\textwidth} | p{.10\textwidth}} 
+~ & \textbf{Präsenz}\\
+\hline
+yo & soy\\
+tú & eres\\
+el/ella/usted & es\\
+nosotros, -as & somos\\
+vosotros, -as & sois\\
+ellos/ellas/ustedes & son
+\end{longtable}
+
+%& \multirow{5}{=}{$\left. \begin{array}{l} \\[12ex] \end{array} \right\} $}\\
+\section*{ir}
+\begin{longtable}{p{.175\textwidth} | p{.10\textwidth}} 
+~ & \textbf{Präsenz}\\
+\hline
+yo & voy \\
+tú & vas\\
+el/ella/usted & va\\
+nosotros, -as & vamos \\
+vosotros, -as & vais\\
+ellos/ellas/ustedes & van\\
+\end{longtable}
+
+
+\section*{ver - \textit{sehen}}
+\begin{longtable}{p{.175\textwidth} | p{.10\textwidth}}
+~ & \textbf{Präsenz}\\
+\hline
+yo & veo\\
+tú & ves\\
+el/ella/usted & ve\\
+nosotros, -as & vemos\\
+vosotros, -as & veis \\
+ellos/ellas/ustedes & ven
+\end{longtable}
+
+
+
+
+\end{document}
