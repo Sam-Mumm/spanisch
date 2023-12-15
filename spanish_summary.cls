@@ -14,6 +14,8 @@
 \RequirePackage[none]{hyphenat}
 \RequirePackage{mathtools}
 
+\pagenumbering{gobble}
+
 \setlength{\parindent}{0em}
 
 \titlespacing*{\section} {0pt}{5.5ex}{0ex}
