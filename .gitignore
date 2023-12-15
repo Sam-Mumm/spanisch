@@ -5,3 +5,4 @@
 *.tex~
 *.fdb_latexmk
 *.dvi
+*.cls~
