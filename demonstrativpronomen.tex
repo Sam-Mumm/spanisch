@@ -1,0 +1,26 @@
+\documentclass{spanish_summary}
+\usepackage{hhline,tabularx}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{document}
+
+\chapter*{Demonstrativpronomen}
+
+\begin{table}[h]
+\renewcommand\arraystretch{1.5}
+%\begin{tabularx}{\textwidth}{ |*{1}{l}|*{5}{C|} }
+\begin{tabularx}{0.8\textwidth}{ |*{1}{l}|*{5}{C|} }
+\hline
+\textbf{Entfernung} & \multicolumn{2}{c|}{\textbf{Maskulin}} & \multicolumn{2}{c|}{\textbf{Feminin}} & \textbf{Neutrum} \\
+& \textbf{Singular} & \textbf{Plural} & \textbf{Singular} & \textbf{Plural} & \\ 
+\hline
+\textbf{nahe beim Sprechenden} & este & estos & esta & estas & esto\\
+\hline
+\textbf{nahe beim Angesprochenen} & ese & esos & esa & esas & eso\\
+\hline
+\textbf{weit entfernt} & aquél & aquéllos & aquélla & aquéllas & aquello\\
+\hline
+\end{tabularx}
+\end{table}
+\end{document}
